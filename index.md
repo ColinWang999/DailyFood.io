@@ -1,26 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function copyText()
-{
-document.getElementById("field2").value=document.getElementById("field1").value;
-}
-</script>
-</head>
-<body>
+# Welcome to Daily Food page
 
-Field1: <input type="text" id="field1" value="Hello World!"><br>
-Field2: <input type="text" id="field2"><br><br>
+You can randomly pick what food you want to cook today.
 
-<button onclick="alert:'Hello'">1复制文本</button>
-
-<p>当按钮被单击时触发函数。此函数把文本从 Field1 复制到 Field2 中。</p>
-
-</body>
-</html>
+<a>Test</a>
 
 
-
-
-
+<button style="cursor:pointer;" onclick="javascript:alert('Hello')">Click to Choose your breakfast!</button>
+<p></p>
+<button style="cursor:pointer;">Click to Choose your lunch! </button>
+<p></p>
+<button style="cursor:pointer;">Click to Choose your supper!</button>
+<p></p>
