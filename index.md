@@ -7,7 +7,7 @@ You can randomly pick what food you want to cook today.
 
 <button style="cursor:pointer;" onclick="javascript:alert('Hello')">Click to Choose your breakfast!</button>
 <p></p>
-<button style="cursor:pointer;">Click to Choose your lunch!</button>
+<button style="cursor:pointer;">Click to Choose your lunch! </button>
 <p></p>
 <button style="cursor:pointer;">Click to Choose your supper!</button>
 <p></p>
