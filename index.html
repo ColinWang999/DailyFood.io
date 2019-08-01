@@ -2,9 +2,16 @@
 <html>
 <head>
 <script>
+var breakfasts = ['1','2','3','4','5'];
 function copyText()
 {
 document.getElementById("field2").value=document.getElementById("field1").value;
+}
+  
+function dailyBreakfast()
+{
+var item = breakfasts[Math.floor(Math.random()*items.length)];
+document.getElementById("breakfast").value=item; 
 }
 </script>
 </head>
@@ -12,6 +19,7 @@ document.getElementById("field2").value=document.getElementById("field1").value;
 
 Field1: <input type="text" id="field1" value="Hello World!"><br>
 Field2: <input type="text" id="field2"><br><br>
+Field1: <input type="text" id="breakfast"><br>
 
 <button onclick="copyText()">1复制文本</button>
 
