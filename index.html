@@ -2,9 +2,9 @@
 <html>
 <head>
 <script>
-var breakfasts = ['1','2','3','4','5'];
+var breakfasts = ['蒸土豆/水煮蛋/鸡胸肉/胡萝卜/西蓝花','2','3','4','5'];
 var lunchs = ['1','2','3','4','5'];
-var suppers = ['1','2','3','4','5'];
+var suppers = ['蒸土豆/水煮蛋/鸡胸肉/胡萝卜/西蓝花','南瓜藜麦沙拉/水煮蛋/草莓/混合蔬菜沙拉','3','4','5'];
   
 function dailyBreakfast()
 {
@@ -27,14 +27,34 @@ document.getElementById("supper").value=item;
 </head>
 <body>
 
+第一版来自于此网站：
+https://www.sohu.com/a/144526229_614732
+  
 
+健身餐搭配的原则是：
+
+早餐：丰富
+
+搭配原则：乳制品（豆饮）+碳水主食+蛋白质食物（肉蛋为主）+果蔬+坚果
+
+午餐：饱腹
+
+搭配原则：低GI碳水主食+肉类蛋白+各种蔬菜
+
+晚餐：少糖、饱腹
+
+搭配原则：碳水主食+蛋白质食物+新鲜蔬菜
+  
+  
+  
+  
 Breakfast: <input type="text" id="breakfast">
 <button onclick="dailyBreakfast()">早饭吃什么</button><br><br>
   
-Breakfast: <input type="text" id="lunch">
+Lunch    : <input type="text" id="lunch">
 <button onclick="dailyLunch()">午饭吃什么</button><br><br>
   
-Breakfast: <input type="text" id="supper">
+Supper   : <input type="text" id="supper">
 <button onclick="dailySupper()">晚饭吃什么</button><br><br>
 
 <p>随机选择今天的早餐、午餐、晚餐吃什么，暂时不支持自定义上传菜品，这是最粗糙的第一版。</p>
